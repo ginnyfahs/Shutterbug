@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342E928521FA49760032A5F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E928421FA49760032A5F7 /* AppDelegate.m */; };
+		342E928821FA49760032A5F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E928721FA49760032A5F7 /* ViewController.m */; };
+		342E928B21FA49760032A5F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342E928921FA49760032A5F7 /* Main.storyboard */; };
+		342E928D21FA49770032A5F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342E928C21FA49770032A5F7 /* Assets.xcassets */; };
+		342E929021FA49770032A5F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342E928E21FA49770032A5F7 /* LaunchScreen.storyboard */; };
+		342E929321FA49770032A5F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E929221FA49770032A5F7 /* main.m */; };
+		342E929D21FA49770032A5F7 /* ShutterbugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E929C21FA49770032A5F7 /* ShutterbugTests.m */; };
+		342E92A821FA49770032A5F7 /* ShutterbugUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E92A721FA49770032A5F7 /* ShutterbugUITests.m */; };
+		342E92B721FA49F10032A5F7 /* FlickrPhotosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E92B621FA49F10032A5F7 /* FlickrPhotosTVC.m */; };
+		342E92BA21FA4B180032A5F7 /* JustPostedFlickrPhotosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E92B921FA4B180032A5F7 /* JustPostedFlickrPhotosTVC.m */; };
+		342E92C121FA4DC50032A5F7 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E92C021FA4C7E0032A5F7 /* FlickrFetcher.m */; };
+		342E92C421FA62D90032A5F7 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E92C321FA62D90032A5F7 /* ImageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		342E929921FA49770032A5F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342E927821FA49760032A5F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 342E927F21FA49760032A5F7;
+			remoteInfo = Shutterbug;
+		};
+		342E92A421FA49770032A5F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342E927821FA49760032A5F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 342E927F21FA49760032A5F7;
+			remoteInfo = Shutterbug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		342E928021FA49760032A5F7 /* Shutterbug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shutterbug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342E928321FA49760032A5F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		342E928421FA49760032A5F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		342E928621FA49760032A5F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		342E928721FA49760032A5F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		342E928A21FA49760032A5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		342E928C21FA49770032A5F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		342E928F21FA49770032A5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		342E929121FA49770032A5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342E929221FA49770032A5F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		342E929821FA49770032A5F7 /* ShutterbugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShutterbugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		342E929C21FA49770032A5F7 /* ShutterbugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShutterbugTests.m; sourceTree = "<group>"; };
+		342E929E21FA49770032A5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342E92A321FA49770032A5F7 /* ShutterbugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShutterbugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		342E92A721FA49770032A5F7 /* ShutterbugUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShutterbugUITests.m; sourceTree = "<group>"; };
+		342E92A921FA49770032A5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342E92B521FA49F10032A5F7 /* FlickrPhotosTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrPhotosTVC.h; sourceTree = "<group>"; };
+		342E92B621FA49F10032A5F7 /* FlickrPhotosTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotosTVC.m; sourceTree = "<group>"; };
+		342E92B821FA4B180032A5F7 /* JustPostedFlickrPhotosTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JustPostedFlickrPhotosTVC.h; sourceTree = "<group>"; };
+		342E92B921FA4B180032A5F7 /* JustPostedFlickrPhotosTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustPostedFlickrPhotosTVC.m; sourceTree = "<group>"; };
+		342E92BE21FA4C7E0032A5F7 /* FlickrAPIKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		342E92BF21FA4C7E0032A5F7 /* FlickrFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		342E92C021FA4C7E0032A5F7 /* FlickrFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		342E92C221FA62D90032A5F7 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = ../../Imaginarium/Imaginarium/ImageViewController.h; sourceTree = "<group>"; };
+		342E92C321FA62D90032A5F7 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = ../../Imaginarium/Imaginarium/ImageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		342E927D21FA49760032A5F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342E929521FA49770032A5F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342E92A021FA49770032A5F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		342E927721FA49760032A5F7 = {
+			isa = PBXGroup;
+			children = (
+				342E928221FA49760032A5F7 /* Shutterbug */,
+				342E929B21FA49770032A5F7 /* ShutterbugTests */,
+				342E92A621FA49770032A5F7 /* ShutterbugUITests */,
+				342E928121FA49760032A5F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		342E928121FA49760032A5F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				342E928021FA49760032A5F7 /* Shutterbug.app */,
+				342E929821FA49770032A5F7 /* ShutterbugTests.xctest */,
+				342E92A321FA49770032A5F7 /* ShutterbugUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		342E928221FA49760032A5F7 /* Shutterbug */ = {
+			isa = PBXGroup;
+			children = (
+				342E928321FA49760032A5F7 /* AppDelegate.h */,
+				342E928421FA49760032A5F7 /* AppDelegate.m */,
+				342E928621FA49760032A5F7 /* ViewController.h */,
+				342E928721FA49760032A5F7 /* ViewController.m */,
+				342E928921FA49760032A5F7 /* Main.storyboard */,
+				342E92B521FA49F10032A5F7 /* FlickrPhotosTVC.h */,
+				342E92B621FA49F10032A5F7 /* FlickrPhotosTVC.m */,
+				342E92C221FA62D90032A5F7 /* ImageViewController.h */,
+				342E92C321FA62D90032A5F7 /* ImageViewController.m */,
+				342E92B821FA4B180032A5F7 /* JustPostedFlickrPhotosTVC.h */,
+				342E92B921FA4B180032A5F7 /* JustPostedFlickrPhotosTVC.m */,
+				342E928C21FA49770032A5F7 /* Assets.xcassets */,
+				342E928E21FA49770032A5F7 /* LaunchScreen.storyboard */,
+				342E929121FA49770032A5F7 /* Info.plist */,
+				342E929221FA49770032A5F7 /* main.m */,
+				342E92BE21FA4C7E0032A5F7 /* FlickrAPIKey.h */,
+				342E92BF21FA4C7E0032A5F7 /* FlickrFetcher.h */,
+				342E92C021FA4C7E0032A5F7 /* FlickrFetcher.m */,
+				342E92BD21FA4C7E0032A5F7 /* Flickr Fetcher */,
+			);
+			path = Shutterbug;
+			sourceTree = "<group>";
+		};
+		342E929B21FA49770032A5F7 /* ShutterbugTests */ = {
+			isa = PBXGroup;
+			children = (
+				342E929C21FA49770032A5F7 /* ShutterbugTests.m */,
+				342E929E21FA49770032A5F7 /* Info.plist */,
+			);
+			path = ShutterbugTests;
+			sourceTree = "<group>";
+		};
+		342E92A621FA49770032A5F7 /* ShutterbugUITests */ = {
+			isa = PBXGroup;
+			children = (
+				342E92A721FA49770032A5F7 /* ShutterbugUITests.m */,
+				342E92A921FA49770032A5F7 /* Info.plist */,
+			);
+			path = ShutterbugUITests;
+			sourceTree = "<group>";
+		};
+		342E92BD21FA4C7E0032A5F7 /* Flickr Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Flickr Fetcher";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		342E927F21FA49760032A5F7 /* Shutterbug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342E92AC21FA49770032A5F7 /* Build configuration list for PBXNativeTarget "Shutterbug" */;
+			buildPhases = (
+				342E927C21FA49760032A5F7 /* Sources */,
+				342E927D21FA49760032A5F7 /* Frameworks */,
+				342E927E21FA49760032A5F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shutterbug;
+			productName = Shutterbug;
+			productReference = 342E928021FA49760032A5F7 /* Shutterbug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		342E929721FA49770032A5F7 /* ShutterbugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342E92AF21FA49770032A5F7 /* Build configuration list for PBXNativeTarget "ShutterbugTests" */;
+			buildPhases = (
+				342E929421FA49770032A5F7 /* Sources */,
+				342E929521FA49770032A5F7 /* Frameworks */,
+				342E929621FA49770032A5F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342E929A21FA49770032A5F7 /* PBXTargetDependency */,
+			);
+			name = ShutterbugTests;
+			productName = ShutterbugTests;
+			productReference = 342E929821FA49770032A5F7 /* ShutterbugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		342E92A221FA49770032A5F7 /* ShutterbugUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342E92B221FA49770032A5F7 /* Build configuration list for PBXNativeTarget "ShutterbugUITests" */;
+			buildPhases = (
+				342E929F21FA49770032A5F7 /* Sources */,
+				342E92A021FA49770032A5F7 /* Frameworks */,
+				342E92A121FA49770032A5F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342E92A521FA49770032A5F7 /* PBXTargetDependency */,
+			);
+			name = ShutterbugUITests;
+			productName = ShutterbugUITests;
+			productReference = 342E92A321FA49770032A5F7 /* ShutterbugUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		342E927821FA49760032A5F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ginny's Games";
+				TargetAttributes = {
+					342E927F21FA49760032A5F7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					342E929721FA49770032A5F7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 342E927F21FA49760032A5F7;
+					};
+					342E92A221FA49770032A5F7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 342E927F21FA49760032A5F7;
+					};
+				};
+			};
+			buildConfigurationList = 342E927B21FA49760032A5F7 /* Build configuration list for PBXProject "Shutterbug" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 342E927721FA49760032A5F7;
+			productRefGroup = 342E928121FA49760032A5F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				342E927F21FA49760032A5F7 /* Shutterbug */,
+				342E929721FA49770032A5F7 /* ShutterbugTests */,
+				342E92A221FA49770032A5F7 /* ShutterbugUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		342E927E21FA49760032A5F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342E929021FA49770032A5F7 /* LaunchScreen.storyboard in Resources */,
+				342E928D21FA49770032A5F7 /* Assets.xcassets in Resources */,
+				342E928B21FA49760032A5F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342E929621FA49770032A5F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342E92A121FA49770032A5F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		342E927C21FA49760032A5F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342E92BA21FA4B180032A5F7 /* JustPostedFlickrPhotosTVC.m in Sources */,
+				342E928821FA49760032A5F7 /* ViewController.m in Sources */,
+				342E92B721FA49F10032A5F7 /* FlickrPhotosTVC.m in Sources */,
+				342E929321FA49770032A5F7 /* main.m in Sources */,
+				342E92C121FA4DC50032A5F7 /* FlickrFetcher.m in Sources */,
+				342E92C421FA62D90032A5F7 /* ImageViewController.m in Sources */,
+				342E928521FA49760032A5F7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342E929421FA49770032A5F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342E929D21FA49770032A5F7 /* ShutterbugTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342E929F21FA49770032A5F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342E92A821FA49770032A5F7 /* ShutterbugUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		342E929A21FA49770032A5F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 342E927F21FA49760032A5F7 /* Shutterbug */;
+			targetProxy = 342E929921FA49770032A5F7 /* PBXContainerItemProxy */;
+		};
+		342E92A521FA49770032A5F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 342E927F21FA49760032A5F7 /* Shutterbug */;
+			targetProxy = 342E92A421FA49770032A5F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		342E928921FA49760032A5F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342E928A21FA49760032A5F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		342E928E21FA49770032A5F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342E928F21FA49770032A5F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		342E92AA21FA49770032A5F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		342E92AB21FA49770032A5F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		342E92AD21FA49770032A5F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Shutterbug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ginny.Shutterbug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		342E92AE21FA49770032A5F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Shutterbug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ginny.Shutterbug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		342E92B021FA49770032A5F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShutterbugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ginny.ShutterbugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shutterbug.app/Shutterbug";
+			};
+			name = Debug;
+		};
+		342E92B121FA49770032A5F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShutterbugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ginny.ShutterbugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shutterbug.app/Shutterbug";
+			};
+			name = Release;
+		};
+		342E92B321FA49770032A5F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShutterbugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ginny.ShutterbugUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shutterbug;
+			};
+			name = Debug;
+		};
+		342E92B421FA49770032A5F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShutterbugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ginny.ShutterbugUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shutterbug;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		342E927B21FA49760032A5F7 /* Build configuration list for PBXProject "Shutterbug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342E92AA21FA49770032A5F7 /* Debug */,
+				342E92AB21FA49770032A5F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342E92AC21FA49770032A5F7 /* Build configuration list for PBXNativeTarget "Shutterbug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342E92AD21FA49770032A5F7 /* Debug */,
+				342E92AE21FA49770032A5F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342E92AF21FA49770032A5F7 /* Build configuration list for PBXNativeTarget "ShutterbugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342E92B021FA49770032A5F7 /* Debug */,
+				342E92B121FA49770032A5F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342E92B221FA49770032A5F7 /* Build configuration list for PBXNativeTarget "ShutterbugUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342E92B321FA49770032A5F7 /* Debug */,
+				342E92B421FA49770032A5F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 342E927821FA49760032A5F7 /* Project object */;
+}
